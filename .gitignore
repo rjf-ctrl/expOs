@@ -1,0 +1,15 @@
+# Docker junk
+*.log
+*.tmp
+
+# eXpOS generated files
+disk.xfs
+xfs.log
+xsm.log
+
+# Build outputs
+*.o
+*.out
+
+# Editor files
+.vscode/
