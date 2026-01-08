@@ -7,9 +7,16 @@ disk.xfs
 xfs.log
 xsm.log
 
+# XSM temporary files
+tempfile.*.xsm
+
 # Build outputs
 *.o
 *.out
+
+# Shell / editor noise
+.bash_history
+.viminfo
 
 # Editor files
 .vscode/
