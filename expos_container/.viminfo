@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1767782770,,"wq"
+|2,0,1768297290,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,20 +25,220 @@
 # Registers:
 
 # File marks:
-'0  6  0  ~/myexpos/sample.dat
-|4,48,6,0,1767782770,"~/myexpos/sample.dat"
+'0  9  0  ~/myexpos/brkp_trial.spl
+|4,48,9,0,1768297290,"~/myexpos/brkp_trial.spl"
+'1  6  0  ~/myexpos/sample.dat
+|4,49,6,0,1767949016,"~/myexpos/sample.dat"
+'2  2  9  ~/myexpos/printA.spl
+|4,50,2,9,1767948203,"~/myexpos/printA.spl"
+'3  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,51,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+'4  1  36  ~/myexpos/trial.dat
+|4,52,1,36,1767943964,"~/myexpos/trial.dat"
+'5  6  0  ~/myexpos/sample.dat
+|4,53,6,0,1767782770,"~/myexpos/sample.dat"
 
 # Jumplist (newest first):
+-'  9  0  ~/myexpos/brkp_trial.spl
+|4,39,9,0,1768297290,"~/myexpos/brkp_trial.spl"
+-'  1  0  ~/myexpos/brkp_trial.spl
+|4,39,1,0,1768297179,"~/myexpos/brkp_trial.spl"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767949016,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767949016,"~/myexpos/sample.dat"
+-'  2  9  ~/myexpos/printA.spl
+|4,39,2,9,1767948203,"~/myexpos/printA.spl"
+-'  2  9  ~/myexpos/printA.spl
+|4,39,2,9,1767948203,"~/myexpos/printA.spl"
+-'  2  9  ~/myexpos/printA.spl
+|4,39,2,9,1767948203,"~/myexpos/printA.spl"
+-'  2  9  ~/myexpos/printA.spl
+|4,39,2,9,1767948203,"~/myexpos/printA.spl"
+-'  1  0  ~/myexpos/printA.spl
+|4,39,1,0,1767947929,"~/myexpos/printA.spl"
+-'  1  0  ~/myexpos/printA.spl
+|4,39,1,0,1767947929,"~/myexpos/printA.spl"
+-'  1  0  ~/myexpos/printA.spl
+|4,39,1,0,1767947929,"~/myexpos/printA.spl"
+-'  1  0  ~/myexpos/printA.spl
+|4,39,1,0,1767947929,"~/myexpos/printA.spl"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
+|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
+-'  1  36  ~/myexpos/trial.dat
+|4,39,1,36,1767943964,"~/myexpos/trial.dat"
 -'  6  0  ~/myexpos/sample.dat
 |4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  6  0  ~/myexpos/sample.dat
+|4,39,6,0,1767782770,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  1  0  ~/myexpos/sample.dat
+|4,39,1,0,1767782721,"~/myexpos/sample.dat"
 -'  1  0  ~/myexpos/sample.dat
 |4,39,1,0,1767782721,"~/myexpos/sample.dat"
 
 # History of marks within files (newest to oldest):
 
+> ~/myexpos/brkp_trial.spl
+	*	1768297287	0
+	"	9	0
+	^	9	0
+	.	8	9
+	+	4	23
+	+	6	5
+	+	8	8
+	+	8	9
+
 > ~/myexpos/sample.dat
-	*	1767782762	0
+	*	1767949014	0
 	"	6	0
 	^	6	31
 	.	6	30
 	+	6	30
+
+> ~/myexpos/printA.spl
+	*	1767948201	0
+	"	2	9
+	^	2	10
+	.	2	9
+	+	5	21
+	+	4	12
+	+	6	0
+	+	2	15
+	+	8	18
+	+	9	8
+	+	7	13
+	+	2	9
+
+> ~/myexpos/spl/spl_progs/helloworld.xsm
+	*	1767944700	0
+	"	2	12
+	^	2	13
+	.	1	20
+	+	1	20
+
+> ~/myexpos/trial.dat
+	*	1767943961	0
+	"	1	36
+	^	1	37
+	.	1	36
+	+	1	36
