@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1768477484,,"wq"
+|2,0,1768479463,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -28,36 +28,80 @@
 |3,1,36,0,1,0,1768476724,"0"
 
 # File marks:
-'0  36  27  ~/myexpos/startup.spl
-|4,48,36,27,1768477484,"~/myexpos/startup.spl"
-'1  89  0  ~/myexpos/startup.xsm
-|4,49,89,0,1768477462,"~/myexpos/startup.xsm"
-'2  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,50,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
-'3  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,51,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
-'4  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,52,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
-'5  15  17  ~/myexpos/startup.spl
-|4,53,15,17,1768476458,"~/myexpos/startup.spl"
-'6  15  17  ~/myexpos/startup.spl
-|4,54,15,17,1768476458,"~/myexpos/startup.spl"
-'7  38  0  ~/myexpos/startup.spl
-|4,55,38,0,1768443174,"~/myexpos/startup.spl"
-'8  18  0  ~/myexpos/startup.spl
-|4,56,18,0,1768443174,"~/myexpos/startup.spl"
-'9  38  0  ~/myexpos/startup.spl
-|4,57,38,0,1768443174,"~/myexpos/startup.spl"
+'0  2  6  ~/myexpos/spl/spl_progs/sample_timer.spl
+|4,48,2,6,1768479463,"~/myexpos/spl/spl_progs/sample_timer.spl"
+'1  40  0  ~/myexpos/startup.spl
+|4,49,40,0,1768479380,"~/myexpos/startup.spl"
+'2  38  27  ~/myexpos/startup.spl
+|4,50,38,27,1768477484,"~/myexpos/startup.spl"
+'3  36  27  ~/myexpos/startup.spl
+|4,51,36,27,1768477484,"~/myexpos/startup.spl"
+'4  89  0  ~/myexpos/startup.xsm
+|4,52,89,0,1768477462,"~/myexpos/startup.xsm"
+'5  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,53,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+'6  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,54,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+'7  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,55,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+'8  17  17  ~/myexpos/startup.spl
+|4,56,17,17,1768476458,"~/myexpos/startup.spl"
+'9  17  17  ~/myexpos/startup.spl
+|4,57,17,17,1768476458,"~/myexpos/startup.spl"
 
 # Jumplist (newest first):
+-'  2  6  ~/myexpos/spl/spl_progs/sample_timer.spl
+|4,39,2,6,1768479463,"~/myexpos/spl/spl_progs/sample_timer.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_timer.spl
+|4,39,1,0,1768479440,"~/myexpos/spl/spl_progs/sample_timer.spl"
+-'  40  0  ~/myexpos/startup.spl
+|4,39,40,0,1768479380,"~/myexpos/startup.spl"
+-'  40  0  ~/myexpos/startup.spl
+|4,39,40,0,1768479380,"~/myexpos/startup.spl"
+-'  38  27  ~/myexpos/startup.spl
+|4,39,38,27,1768479359,"~/myexpos/startup.spl"
+-'  38  27  ~/myexpos/startup.spl
+|4,39,38,27,1768479359,"~/myexpos/startup.spl"
 -'  36  27  ~/myexpos/startup.spl
 |4,39,36,27,1768477484,"~/myexpos/startup.spl"
+-'  36  27  ~/myexpos/startup.spl
+|4,39,36,27,1768477484,"~/myexpos/startup.spl"
+-'  17  17  ~/myexpos/startup.spl
+|4,39,17,17,1768477467,"~/myexpos/startup.spl"
+-'  15  17  ~/myexpos/startup.spl
+|4,39,15,17,1768477467,"~/myexpos/startup.spl"
+-'  17  17  ~/myexpos/startup.spl
+|4,39,17,17,1768477467,"~/myexpos/startup.spl"
 -'  15  17  ~/myexpos/startup.spl
 |4,39,15,17,1768477467,"~/myexpos/startup.spl"
 -'  89  0  ~/myexpos/startup.xsm
 |4,39,89,0,1768477462,"~/myexpos/startup.xsm"
 -'  89  0  ~/myexpos/startup.xsm
 |4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  89  0  ~/myexpos/startup.xsm
+|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
 -'  8  0  ~/myexpos/startup.xsm
 |4,39,8,0,1768477456,"~/myexpos/startup.xsm"
 -'  8  0  ~/myexpos/startup.xsm
@@ -70,6 +114,30 @@
 |4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
 |4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
 |4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
@@ -78,6 +146,54 @@
 |4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
 |4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
 |4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
@@ -102,174 +218,66 @@
 |4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
 -'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
 |4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768476458,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  38  0  ~/myexpos/startup.spl
-|4,39,38,0,1768475963,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.spl
-|4,39,18,0,1768443174,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  1  0  ~/myexpos/startup.spl
-|4,39,1,0,1768443168,"~/myexpos/startup.spl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
--'  18  0  ~/myexpos/startup.expl
-|4,39,18,0,1768443150,"~/myexpos/startup.expl"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
 
 # History of marks within files (newest to oldest):
 
+> ~/myexpos/spl/spl_progs/sample_timer.spl
+	*	1768479460	0
+	"	2	6
+	^	2	7
+	.	2	7
+	+	2	7
+
 > ~/myexpos/startup.spl
-	*	1768477483	0
-	"	36	27
-	^	36	28
-	.	37	0
-	+	37	8
-	+	9	0
-	+	10	10
-	+	34	19
+	*	1768479379	0
+	"	40	0
+	^	40	0
+	.	10	12
+	+	39	8
 	+	11	0
+	+	12	10
+	+	36	19
+	+	13	0
+	+	39	0
 	+	37	0
-	+	35	0
-	+	30	0
-	+	21	0
-	+	15	17
-	+	36	28
-	+	37	0
+	+	32	0
+	+	23	0
+	+	17	17
+	+	38	28
+	+	39	0
+	+	10	12
 
 > ~/myexpos/startup.xsm
 	*	1768477460	0

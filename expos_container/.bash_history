@@ -296,3 +296,26 @@ cd xsm
 ./xsm --debug --timer 0
 clear
 exit
+cd myexpos
+vim startup.spl
+cd spl
+./spl $HOME/myexpos/startup.spl
+cd $HOME/myexpos/spl/spl_progs
+vim sample_timer.spl
+cd ..
+./spl spl_progs/sample_timer.spl
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+ cd spl
+cd spl_progs
+ls
+cd ..
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm --timer 2
+exit
