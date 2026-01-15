@@ -230,3 +230,69 @@ cd xsm
 clear
 cd ..
 exit
+cd myexpos
+cat startup.spl
+vim startup.spl
+cd xfs-interface
+./xfs-interface
+cd xsm
+cd..
+cd xsm
+cd ..
+cd xsm
+clear
+cd ..
+cd spl
+.spl $HOME/myexpos/startup.spl
+./spl $HOME/myexpos/startup.spl
+cd ..
+ls
+cat startup.xsm
+clear
+cd xfs-interface
+./xfs-interface
+cd ..
+cd expl/expl_progs
+vim squares.xsm
+cd ..
+cd ..
+cd xfs-interface
+./xfs-interface
+cd xsm 
+cd ..
+cd xsm
+./xsm --debug --timer 0
+cd ..
+cat startup.spl
+cat $HOME/myexpos/expl/expl_progs/squares.xsm
+whats wrong?
+vim $HOME/myexpos/expl/expl_progs/squares.xsm
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm --debug --timer 0
+cat $HOME/myexpos/expl/expl_progs/squares.xsm
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+ cd xsm
+./xsm --debug --timer 0
+cd ..
+vim startup.xsm
+vim startup.spl
+./spl $HOME/myexpos/startup.spl
+cd spl
+./spl $HOME/myexpos/startup.spl
+exit
+clear
+cd xfs-interface
+cd myexpos/xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm
+./xsm --debug --timer 0
+clear
+exit
