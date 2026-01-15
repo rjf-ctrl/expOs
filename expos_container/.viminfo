@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1768297290,,"wq"
+|2,0,1768443174,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,178 +25,286 @@
 # Registers:
 
 # File marks:
-'0  9  0  ~/myexpos/brkp_trial.spl
-|4,48,9,0,1768297290,"~/myexpos/brkp_trial.spl"
-'1  6  0  ~/myexpos/sample.dat
-|4,49,6,0,1767949016,"~/myexpos/sample.dat"
-'2  2  9  ~/myexpos/printA.spl
-|4,50,2,9,1767948203,"~/myexpos/printA.spl"
-'3  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,51,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
-'4  1  36  ~/myexpos/trial.dat
-|4,52,1,36,1767943964,"~/myexpos/trial.dat"
-'5  6  0  ~/myexpos/sample.dat
-|4,53,6,0,1767782770,"~/myexpos/sample.dat"
+'0  18  0  ~/myexpos/startup.spl
+|4,48,18,0,1768443174,"~/myexpos/startup.spl"
+'1  18  0  ~/myexpos/startup.expl
+|4,49,18,0,1768443150,"~/myexpos/startup.expl"
+'2  8  0  ~/myexpos/startup.xsm
+|4,50,8,0,1768442408,"~/myexpos/startup.xsm"
+'3  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,51,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+'4  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,52,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+'5  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,53,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+'6  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,54,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+'7  9  0  ~/myexpos/brkp_trial.spl
+|4,55,9,0,1768297290,"~/myexpos/brkp_trial.spl"
+'8  6  0  ~/myexpos/sample.dat
+|4,56,6,0,1767949016,"~/myexpos/sample.dat"
+'9  2  9  ~/myexpos/printA.spl
+|4,57,2,9,1767948203,"~/myexpos/printA.spl"
 
 # Jumplist (newest first):
--'  9  0  ~/myexpos/brkp_trial.spl
-|4,39,9,0,1768297290,"~/myexpos/brkp_trial.spl"
--'  1  0  ~/myexpos/brkp_trial.spl
-|4,39,1,0,1768297179,"~/myexpos/brkp_trial.spl"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767949016,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767949016,"~/myexpos/sample.dat"
--'  2  9  ~/myexpos/printA.spl
-|4,39,2,9,1767948203,"~/myexpos/printA.spl"
--'  2  9  ~/myexpos/printA.spl
-|4,39,2,9,1767948203,"~/myexpos/printA.spl"
--'  2  9  ~/myexpos/printA.spl
-|4,39,2,9,1767948203,"~/myexpos/printA.spl"
--'  2  9  ~/myexpos/printA.spl
-|4,39,2,9,1767948203,"~/myexpos/printA.spl"
--'  1  0  ~/myexpos/printA.spl
-|4,39,1,0,1767947929,"~/myexpos/printA.spl"
--'  1  0  ~/myexpos/printA.spl
-|4,39,1,0,1767947929,"~/myexpos/printA.spl"
--'  1  0  ~/myexpos/printA.spl
-|4,39,1,0,1767947929,"~/myexpos/printA.spl"
--'  1  0  ~/myexpos/printA.spl
-|4,39,1,0,1767947929,"~/myexpos/printA.spl"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  2  12  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,2,12,1767944702,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/helloworld.xsm
-|4,39,1,0,1767944686,"~/myexpos/spl/spl_progs/helloworld.xsm"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  1  36  ~/myexpos/trial.dat
-|4,39,1,36,1767943964,"~/myexpos/trial.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  6  0  ~/myexpos/sample.dat
-|4,39,6,0,1767782770,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
--'  1  0  ~/myexpos/sample.dat
-|4,39,1,0,1767782721,"~/myexpos/sample.dat"
+-'  18  0  ~/myexpos/startup.spl
+|4,39,18,0,1768443174,"~/myexpos/startup.spl"
+-'  1  0  ~/myexpos/startup.spl
+|4,39,1,0,1768443168,"~/myexpos/startup.spl"
+-'  18  0  ~/myexpos/startup.expl
+|4,39,18,0,1768443150,"~/myexpos/startup.expl"
+-'  18  0  ~/myexpos/startup.expl
+|4,39,18,0,1768443150,"~/myexpos/startup.expl"
+-'  1  0  ~/myexpos/startup.expl
+|4,39,1,0,1768442819,"~/myexpos/startup.expl"
+-'  1  0  ~/myexpos/startup.expl
+|4,39,1,0,1768442819,"~/myexpos/startup.expl"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768442408,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768442408,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768442408,"~/myexpos/startup.xsm"
+-'  8  0  ~/myexpos/startup.xsm
+|4,39,8,0,1768442408,"~/myexpos/startup.xsm"
+-'  9  0  ~/myexpos/startup.xsm
+|4,39,9,0,1768442322,"~/myexpos/startup.xsm"
+-'  9  0  ~/myexpos/startup.xsm
+|4,39,9,0,1768442322,"~/myexpos/startup.xsm"
+-'  9  0  ~/myexpos/startup.xsm
+|4,39,9,0,1768442322,"~/myexpos/startup.xsm"
+-'  9  0  ~/myexpos/startup.xsm
+|4,39,9,0,1768442322,"~/myexpos/startup.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,2,0,1768363320,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.spl
+|4,39,1,0,1768363312,"~/myexpos/spl/spl_progs/haltprog.spl"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363265,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363257,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  2  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,2,0,1768363241,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/haltprog.xsm
+|4,39,1,0,1768363214,"~/myexpos/spl/spl_progs/haltprog.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  10  4  ~/myexpos/expl/expl_progs/squares.xsm
+|4,39,10,4,1768363071,"~/myexpos/expl/expl_progs/squares.xsm"
 
 # History of marks within files (newest to oldest):
+
+> ~/myexpos/startup.spl
+	*	1768443172	0
+	"	18	0
+	^	18	0
+	.	17	8
+	+	17	8
+
+> ~/myexpos/startup.expl
+	*	1768443145	0
+	"	18	0
+	^	18	0
+	.	17	8
+	+	2	11
+	+	4	13
+	+	2	11
+	+	17	8
+
+> ~/myexpos/startup.xsm
+	*	1768442405	0
+	"	8	0
+	^	8	0
+	.	7	4
+	+	7	4
+
+> ~/myexpos/spl/spl_progs/haltprog.spl
+	*	1768363318	0
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
+
+> ~/myexpos/spl/spl_progs/haltprog.xsm
+	*	1768363263	0
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
+
+> ~/myexpos/expl/expl_progs/squares.xsm
+	*	1768363069	0
+	"	10	4
+	^	10	5
+	.	10	0
+	+	10	9
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	8	2
+	+	10	0
 
 > ~/myexpos/brkp_trial.spl
 	*	1768297287	0

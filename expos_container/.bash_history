@@ -155,3 +155,78 @@ cd ..
 ls -a
 git status
 exit
+clear
+cd myexpos/expl
+ls
+mkdir expl_progs
+cd expl_progs
+cat squares.xsm
+vim squares.xsm
+cd ''
+cd ..
+cd ..
+cd xfs-interface
+./cfs-interface
+./xfs-interface
+cd ..
+cd spl_progs
+cd spl
+cd spl_progs
+vim haltprog.xsm
+rm haltprog.xsm
+vim haltprog.xsm
+cd ..
+cd spl_progs
+rm haltprog.xsm
+vim haltprog.spl
+cd ..
+./spl spl_progs/haltprog.spl
+cd spl_progs
+ls
+cd ..
+cd ..
+cd xfs-interface
+./xfs-interface
+clear
+./xfs-interface
+cd ..
+cd ls
+ls
+cd spl
+ls
+cd spl_progs
+ls
+cd ..
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+vim startup.xsm
+cd 
+cd xfs-interface
+./xfs-interface
+clear cd myexos
+clear
+cd myexpos
+cd xfs-interface
+./xfs-interface
+clear
+cd ..
+rm startup.xsm
+vim startup.expl
+rm startup.expl
+vim startup.spl
+cd spl
+./spl $HOME/myexpos/startup.spl
+cd ..
+ls\
+ls
+clear
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm --debug --timer 0
+clear
+cd ..
+exit
