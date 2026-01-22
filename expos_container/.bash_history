@@ -354,3 +354,15 @@ git add expos/spl/kernel/os_startup.spl expos/spl/kernel/timer.spl
 git commit -m "Stage 9: OS startup and timer interrupt"
 git push
 exit
+clear
+cd xsf-interface
+cd myexpos/xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm --timer 0
+./xsm debug --timer 0
+./xsm  --timer 2
+./xsm  --timer 5~
+./xsm  --timer 0
+exit

@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1769056809,,"wq"
+|2,0,1769057700,,"wq"
+:q!
+|2,0,1769057659,,"q!"
 :WQ
 |2,0,1768560767,,"WQ"
 
@@ -30,230 +32,275 @@
 |3,1,36,0,1,0,1768560406,"5"
 
 # File marks:
-'0  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,48,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
-'1  42  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,49,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
-'2  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,50,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
-'3  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,51,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
-'4  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,52,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
-'5  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,53,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
-'6  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,54,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
-'7  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,55,14,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
-'8  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,56,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
-'9  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,57,14,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+'0  12  12  ~/myexpos/spl/kernel/os_startup.spl
+|4,48,12,12,1769057700,"~/myexpos/spl/kernel/os_startup.spl"
+'1  1  0  expos/spl/kernel/os_startup.spl
+|4,49,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
+'2  40  0  ~/myexpos/spl/kernel/int7.spl
+|4,50,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
+'3  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,51,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+'4  1  68  ~/myexpos/spl/kernel/int7.spl
+|4,52,1,68,1769057336,"~/myexpos/spl/kernel/int7.spl"
+'5  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,53,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+'6  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,54,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+'7  44  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,55,44,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
+'8  42  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,56,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
+'9  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,57,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
 
 # Jumplist (newest first):
+-'  12  12  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,12,12,1769057700,"~/myexpos/spl/kernel/os_startup.spl"
+-'  44  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,44,0,1769057681,"~/myexpos/spl/kernel/os_startup.spl"
+-'  1  0  expos/spl/kernel/os_startup.spl
+|4,39,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
+-'  1  0  expos/spl/kernel/os_startup.spl
+|4,39,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
+-'  40  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
+-'  40  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
+-'  40  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
+-'  40  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
+-'  1  68  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
+-'  1  68  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
+-'  1  68  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
+-'  1  68  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
+|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  14  9  ~/myexpos/spl/kernel/int7.spl
+|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  1  0  ~/myexpos/spl/kernel/int7.spl
+|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
 -'  8  0  ~/myexpos/spl/kernel/timer.spl
 |4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
 -'  1  0  ~/myexpos/spl/kernel/timer.spl
 |4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  42  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
--'  42  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
--'  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,1,0,1769056670,"~/myexpos/spl/kernel/os_startup.spl"
--'  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,1,0,1769056670,"~/myexpos/spl/kernel/os_startup.spl"
--'  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
--'  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
-|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
--'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
-|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
 
 # History of marks within files (newest to oldest):
+
+> ~/myexpos/spl/kernel/os_startup.spl
+	*	1769057699	0
+	"	12	12
+	^	12	13
+	.	13	0
+	+	41	26
+	+	44	0
+	+	10	13
+	+	13	0
+
+> expos/spl/kernel/os_startup.spl
+	*	1769057658	0
+	"	1	0
+
+> ~/myexpos/spl/kernel/int7.spl
+	*	1769057539	0
+	"	40	0
+	^	40	0
+	.	39	8
+	+	1	220
+	+	1	214
+	+	1	197
+	+	1	179
+	+	1	155
+	+	1	149
+	+	1	137
+	+	1	90
+	+	1	69
+	+	39	8
+
+> ~/myexpos/spl/spl_progs/sample_int7.xsm
+	*	1769057508	0
+	"	14	9
+	^	14	10
+	.	15	0
+	+	36	6
+	+	34	0
+	+	36	0
+	+	31	0
+	+	27	0
+	+	26	0
+	+	24	0
+	+	18	0
+	+	15	0
 
 > ~/myexpos/spl/kernel/timer.spl
 	*	1769056808	0
@@ -268,14 +315,6 @@
 	+	5	0
 	+	4	0
 	+	3	0
-
-> ~/myexpos/spl/kernel/os_startup.spl
-	*	1769056692	0
-	"	42	0
-	^	42	0
-	.	42	0
-	+	39	26
-	+	42	0
 
 > ~/myexpos/expl/expl_progs/factorial.xsm
 	*	1768563523	0
