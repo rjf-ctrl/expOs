@@ -319,3 +319,38 @@ cd ..
 cd xsm
 ./xsm --timer 2
 exit
+cd ~/myexpos
+ls spl/kernel
+cd spl
+ls
+mkdir kernel
+cd kernel
+vim os_startup.spl
+cd ..
+cd ..
+ls
+startup.spl
+cat startup.spl
+cd spl/kernel
+clear
+vim os_startup.spl
+vim timer.spl
+./spl/spl expos/spl/kernel/os_startup.spl
+cd ..
+./spl/spl expos/spl/kernel/os_startup.spl
+./spl $HOME/myexpos/spl/kernel/os_startup.spl
+./spl $HOME/myexpos/spl/kernel/timer.spl
+cd kernel
+ls
+cd ..
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm --timer 5
+git status
+git add expos/spl/kernel/os_startup.spl expos/spl/kernel/timer.spl
+git commit -m "Stage 9: OS startup and timer interrupt"
+git push
+exit

@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1768479463,,"wq"
+|2,0,1769056809,,"wq"
+:WQ
+|2,0,1768560767,,"WQ"
 
 # Search String History (newest to oldest):
 
@@ -24,270 +26,296 @@
 
 # Registers:
 ""-	CHAR	0
-	0
-|3,1,36,0,1,0,1768476724,"0"
+	5
+|3,1,36,0,1,0,1768560406,"5"
 
 # File marks:
-'0  2  6  ~/myexpos/spl/spl_progs/sample_timer.spl
-|4,48,2,6,1768479463,"~/myexpos/spl/spl_progs/sample_timer.spl"
-'1  40  0  ~/myexpos/startup.spl
-|4,49,40,0,1768479380,"~/myexpos/startup.spl"
-'2  38  27  ~/myexpos/startup.spl
-|4,50,38,27,1768477484,"~/myexpos/startup.spl"
-'3  36  27  ~/myexpos/startup.spl
-|4,51,36,27,1768477484,"~/myexpos/startup.spl"
-'4  89  0  ~/myexpos/startup.xsm
-|4,52,89,0,1768477462,"~/myexpos/startup.xsm"
-'5  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,53,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
-'6  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,54,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
-'7  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,55,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
-'8  17  17  ~/myexpos/startup.spl
-|4,56,17,17,1768476458,"~/myexpos/startup.spl"
-'9  17  17  ~/myexpos/startup.spl
-|4,57,17,17,1768476458,"~/myexpos/startup.spl"
+'0  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,48,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+'1  42  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,49,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
+'2  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,50,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
+'3  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,51,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
+'4  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,52,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+'5  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,53,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+'6  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,54,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+'7  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,55,14,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+'8  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,56,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+'9  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,57,14,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
 
 # Jumplist (newest first):
--'  2  6  ~/myexpos/spl/spl_progs/sample_timer.spl
-|4,39,2,6,1768479463,"~/myexpos/spl/spl_progs/sample_timer.spl"
--'  1  0  ~/myexpos/spl/spl_progs/sample_timer.spl
-|4,39,1,0,1768479440,"~/myexpos/spl/spl_progs/sample_timer.spl"
--'  40  0  ~/myexpos/startup.spl
-|4,39,40,0,1768479380,"~/myexpos/startup.spl"
--'  40  0  ~/myexpos/startup.spl
-|4,39,40,0,1768479380,"~/myexpos/startup.spl"
--'  38  27  ~/myexpos/startup.spl
-|4,39,38,27,1768479359,"~/myexpos/startup.spl"
--'  38  27  ~/myexpos/startup.spl
-|4,39,38,27,1768479359,"~/myexpos/startup.spl"
--'  36  27  ~/myexpos/startup.spl
-|4,39,36,27,1768477484,"~/myexpos/startup.spl"
--'  36  27  ~/myexpos/startup.spl
-|4,39,36,27,1768477484,"~/myexpos/startup.spl"
--'  17  17  ~/myexpos/startup.spl
-|4,39,17,17,1768477467,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768477467,"~/myexpos/startup.spl"
--'  17  17  ~/myexpos/startup.spl
-|4,39,17,17,1768477467,"~/myexpos/startup.spl"
--'  15  17  ~/myexpos/startup.spl
-|4,39,15,17,1768477467,"~/myexpos/startup.spl"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  89  0  ~/myexpos/startup.xsm
-|4,39,89,0,1768477462,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/startup.xsm
-|4,39,8,0,1768477456,"~/myexpos/startup.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  8  0  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,8,0,1768477038,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768477007,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  18  5  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,18,5,1768476775,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
--'  1  79  ~/myexpos/expl/expl_progs/squares.xsm
-|4,39,1,79,1768476684,"~/myexpos/expl/expl_progs/squares.xsm"
+-'  8  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
+-'  1  0  ~/myexpos/spl/kernel/timer.spl
+|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  42  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
+-'  42  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
+-'  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,1,0,1769056670,"~/myexpos/spl/kernel/os_startup.spl"
+-'  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,1,0,1769056670,"~/myexpos/spl/kernel/os_startup.spl"
+-'  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
+-'  1  0  ~/myexpos/spl/kernel/os_startup.spl
+|4,39,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  16  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,16,3,1768563525,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563491,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  10  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,10,1768563470,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  14  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,14,3,1768563229,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  13  3  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,13,3,1768560772,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.xsm
+|4,39,1,0,1768560399,"~/myexpos/expl/expl_progs/factorial.xsm"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
+-'  1  0  ~/myexpos/expl/expl_progs/factorial.spl
+|4,39,1,0,1768560392,"~/myexpos/expl/expl_progs/factorial.spl"
 
 # History of marks within files (newest to oldest):
 
-> ~/myexpos/spl/spl_progs/sample_timer.spl
-	*	1768479460	0
-	"	2	6
-	^	2	7
-	.	2	7
-	+	2	7
-
-> ~/myexpos/startup.spl
-	*	1768479379	0
-	"	40	0
-	^	40	0
-	.	10	12
-	+	39	8
-	+	11	0
-	+	12	10
-	+	36	19
-	+	13	0
-	+	39	0
-	+	37	0
-	+	32	0
-	+	23	0
-	+	17	17
-	+	38	28
-	+	39	0
-	+	10	12
-
-> ~/myexpos/startup.xsm
-	*	1768477460	0
-	"	89	0
+> ~/myexpos/spl/kernel/timer.spl
+	*	1769056808	0
+	"	8	0
 	^	8	0
-	.	7	4
-	+	7	4
+	.	3	0
+	+	7	8
+	+	8	0
+	+	7	0
+	+	5	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+
+> ~/myexpos/spl/kernel/os_startup.spl
+	*	1769056692	0
+	"	42	0
+	^	42	0
+	.	42	0
+	+	39	26
+	+	42	0
+
+> ~/myexpos/expl/expl_progs/factorial.xsm
+	*	1768563523	0
+	"	16	3
+	^	16	4
+	.	13	10
+	+	15	9
+	+	11	9
+	+	13	6
+	+	14	22
+	+	14	13
+	+	14	33
+	+	15	0
+	+	14	3
+	+	15	0
+	+	13	6
+	+	18	5
+	+	13	7
+	+	14	9
+	+	10	8
+	+	14	2
+	+	17	7
+	+	13	10
+	+	17	0
+	+	16	3
+	+	13	10
+
+> ~/myexpos/expl/expl_progs/factorial.spl
+	*	1768560388	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/myexpos/expl/expl_progs/factorial.expl
+	*	1768560358	0
+	"	1	0
 
 > ~/myexpos/expl/expl_progs/squares.xsm
-	*	1768477036	0
+	*	1768560292	0
 	"	8	0
 	^	8	1
 	.	8	0
@@ -325,6 +353,87 @@
 	+	17	0
 	+	18	0
 	+	8	0
+
+> ~/myexpos/init_code.xsm
+	*	1768554215	0
+	"	20	5
+	^	20	6
+	.	20	5
+	+	1	29
+	+	1	98
+	+	1	29
+	+	1	98
+	+	1	100
+	+	1	105
+	+	1	48
+	+	20	17
+	+	19	17
+	+	18	17
+	+	17	17
+	+	16	17
+	+	15	17
+	+	14	17
+	+	13	17
+	+	12	17
+	+	11	17
+	+	10	17
+	+	9	17
+	+	19	7
+	+	20	5
+
+> ~/myexpos/startup_code.spl
+	*	1768553314	0
+	"	21	13
+	^	21	14
+	.	21	13
+	+	1	13
+	+	2	13
+	+	3	14
+	+	4	14
+	+	5	13
+	+	6	13
+	+	7	14
+	+	8	14
+	+	37	20
+	+	39	8
+	+	22	13
+	+	24	13
+	+	20	12
+	+	25	14
+	+	21	13
+
+> ~/myexpos/spl/spl_progs/sample_timer.spl
+	*	1768479460	0
+	"	2	6
+	^	2	7
+	.	2	7
+	+	2	7
+
+> ~/myexpos/startup.spl
+	*	1768479379	0
+	"	40	0
+	^	40	0
+	.	10	12
+	+	39	8
+	+	11	0
+	+	12	10
+	+	36	19
+	+	13	0
+	+	39	0
+	+	37	0
+	+	32	0
+	+	23	0
+	+	17	17
+	+	38	28
+	+	39	0
+	+	10	12
+
+> ~/myexpos/startup.xsm
+	*	1768477460	0
+	"	89	0
+	^	8	0
+	.	7	4
+	+	7	4
 
 > ~/myexpos/startup.expl
 	*	1768443145	0
