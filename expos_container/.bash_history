@@ -366,3 +366,52 @@ cd xsm
 ./xsm  --timer 5~
 ./xsm  --timer 0
 exit
+cd myexpos/expl
+cd ..
+cd xsm
+./xsm
+cd ..
+cd spl
+$HOME/myexpos/spl/kernel/timer.spl
+./spl $HOME/myexpos/spl/kernel/timer.spl
+./spl $HOME/myexpos/spl/kernel/timer.spl
+clear
+ls
+./spl kernel/timer.spl
+exit
+cd myexpos/spl
+./spl kernel/timer.spl
+./spl kernel/os_startup.spl
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm
+cd ..
+cd spl
+./spl kernel/os_startup.spl
+./spl kernel/timer.spl
+cd ..
+cd xfs-interface
+./xfs-interface
+cd ..
+cd xsm
+./xsm
+exit
+clear
+docker start expos
+exit
+cd myexpos/spl
+./spl $HOME/myexpos/stage13/os_startup.spl
+./spl $HOME/myexpos/stage13/boot_module.spl
+cd ..
+cd xfs-interface
+
+./xfs-interface
+clear
+cd ..
+cd xsm
+./xsm --timer 5
+clear
+exit

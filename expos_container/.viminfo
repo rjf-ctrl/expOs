@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1769057700,,"wq"
+|2,0,1769777042,,"wq"
 :q!
 |2,0,1769057659,,"q!"
 :WQ
@@ -28,234 +28,275 @@
 
 # Registers:
 ""-	CHAR	0
-	5
-|3,1,36,0,1,0,1768560406,"5"
+	T
+|3,1,36,0,1,0,1769681116,"T"
 
 # File marks:
-'0  12  12  ~/myexpos/spl/kernel/os_startup.spl
-|4,48,12,12,1769057700,"~/myexpos/spl/kernel/os_startup.spl"
-'1  1  0  expos/spl/kernel/os_startup.spl
-|4,49,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
-'2  40  0  ~/myexpos/spl/kernel/int7.spl
-|4,50,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
-'3  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,51,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
-'4  1  68  ~/myexpos/spl/kernel/int7.spl
-|4,52,1,68,1769057336,"~/myexpos/spl/kernel/int7.spl"
-'5  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,53,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
-'6  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,54,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
-'7  44  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,55,44,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
-'8  42  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,56,42,0,1769056694,"~/myexpos/spl/kernel/os_startup.spl"
-'9  1  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,57,1,0,1769056622,"~/myexpos/spl/kernel/os_startup.spl"
+'0  37  2  ~/myexpos/expl/samples/write_lib.lib
+|4,48,37,2,1769777042,"~/myexpos/expl/samples/write_lib.lib"
+'1  1  310  ~/myexpos/expl/samples/write_lib.lib
+|4,49,1,310,1769681135,"~/myexpos/expl/samples/write_lib.lib"
+'2  36  2  ~/myexpos/expl/samples/write_lib.lib
+|4,50,36,2,1769681135,"~/myexpos/expl/samples/write_lib.lib"
+'3  1  130  ~/myexpos/expl/samples/write_lib.lib
+|4,51,1,130,1769680715,"~/myexpos/expl/samples/write_lib.lib"
+'4  1  130  ~/myexpos/expl/samples/write_lib.lib
+|4,52,1,130,1769680715,"~/myexpos/expl/samples/write_lib.lib"
+'5  1  130  ~/myexpos/expl/samples/write_lib.lib
+|4,53,1,130,1769680715,"~/myexpos/expl/samples/write_lib.lib"
+'6  14  0  ~/myexpos/expl/samples/write_lib.lib
+|4,54,14,0,1769680715,"~/myexpos/expl/samples/write_lib.lib"
+'7  1  81  ~/myexpos/expl/samples/write_lib.lib
+|4,55,1,81,1769680369,"~/myexpos/expl/samples/write_lib.lib"
+'8  1  81  ~/myexpos/expl/samples/write_lib.lib
+|4,56,1,81,1769680369,"~/myexpos/expl/samples/write_lib.lib"
+'9  1  81  ~/myexpos/expl/samples/write_lib.lib
+|4,57,1,81,1769680369,"~/myexpos/expl/samples/write_lib.lib"
 
 # Jumplist (newest first):
--'  12  12  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,12,12,1769057700,"~/myexpos/spl/kernel/os_startup.spl"
--'  44  0  ~/myexpos/spl/kernel/os_startup.spl
-|4,39,44,0,1769057681,"~/myexpos/spl/kernel/os_startup.spl"
--'  1  0  expos/spl/kernel/os_startup.spl
-|4,39,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
--'  1  0  expos/spl/kernel/os_startup.spl
-|4,39,1,0,1769057659,"expos/spl/kernel/os_startup.spl"
--'  40  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
--'  40  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
--'  40  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
--'  40  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,40,0,1769057540,"~/myexpos/spl/kernel/int7.spl"
--'  1  68  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
--'  1  68  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
--'  1  68  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
--'  1  68  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,68,1769057519,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,14,9,1769057509,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  1  0  ~/myexpos/spl/spl_progs/sample_int7.xsm
-|4,39,1,0,1769057484,"~/myexpos/spl/spl_progs/sample_int7.xsm"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  14  9  ~/myexpos/spl/kernel/int7.spl
-|4,39,14,9,1769057336,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  1  0  ~/myexpos/spl/kernel/int7.spl
-|4,39,1,0,1769057300,"~/myexpos/spl/kernel/int7.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  8  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,8,0,1769056809,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
--'  1  0  ~/myexpos/spl/kernel/timer.spl
-|4,39,1,0,1769056763,"~/myexpos/spl/kernel/timer.spl"
+-'  37  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,37,2,1769777042,"~/myexpos/expl/samples/write_lib.lib"
+-'  1  310  ~/myexpos/expl/samples/write_lib.lib
+|4,39,1,310,1769776979,"~/myexpos/expl/samples/write_lib.lib"
+-'  36  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,36,2,1769681135,"~/myexpos/expl/samples/write_lib.lib"
+-'  1  130  ~/myexpos/expl/samples/write_lib.lib
+|4,39,1,130,1769681110,"~/myexpos/expl/samples/write_lib.lib"
+-'  14  0  ~/myexpos/expl/samples/write_lib.lib
+|4,39,14,0,1769680715,"~/myexpos/expl/samples/write_lib.lib"
+-'  8  9  ~/myexpos/expl/samples/write_lib.lib
+|4,39,8,9,1769680704,"~/myexpos/expl/samples/write_lib.lib"
+-'  8  9  ~/myexpos/expl/samples/write_lib.lib
+|4,39,8,9,1769680369,"~/myexpos/expl/samples/write_lib.lib"
+-'  4  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,4,2,1769680357,"~/myexpos/expl/samples/write_lib.lib"
+-'  39  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,39,2,1769680357,"~/myexpos/expl/samples/write_lib.lib"
+-'  39  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,39,2,1769680357,"~/myexpos/expl/samples/write_lib.lib"
+-'  39  2  ~/myexpos/expl/samples/write_lib.lib
+|4,39,39,2,1769680193,"~/myexpos/expl/samples/write_lib.lib"
+-'  1  0  ~/myexpos/expl/samples/write_lib.lib
+|4,39,1,0,1769680184,"~/myexpos/expl/samples/write_lib.lib"
+-'  1  0  ~/myexpos/expl/samples/write_lib.lib
+|4,39,1,0,1769680184,"~/myexpos/expl/samples/write_lib.lib"
+-'  1  0  ~/myexpos/expl/samples/write_lib.lib
+|4,39,1,0,1769680184,"~/myexpos/expl/samples/write_lib.lib"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  11  9  ~/myexpos/expl/samples/numbers.expl
+|4,39,11,9,1769676024,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  1  0  ~/myexpos/expl/samples/numbers.expl
+|4,39,1,0,1769675885,"~/myexpos/expl/samples/numbers.expl"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
+-'  10  9  ~/myexpos/spl/spl_progs/sample_print20.xsm
+|4,39,10,9,1769158926,"~/myexpos/spl/spl_progs/sample_print20.xsm"
 
 # History of marks within files (newest to oldest):
+
+> ~/myexpos/expl/samples/write_lib.lib
+	*	1769777041	0
+	"	37	2
+	^	37	3
+	.	7	6
+	+	1	341
+	+	1	139
+	+	1	73
+	+	1	131
+	+	1	339
+	+	1	308
+	+	37	2
+	+	7	6
+
+> ~/myexpos/expl/samples/numbers.expl
+	*	1769676020	0
+	"	11	9
+	^	11	10
+	.	11	9
+	+	2	4
+	+	4	6
+	+	3	14
+	+	12	2
+	+	10	8
+	+	7	19
+	+	8	38
+	+	9	11
+	+	11	9
+
+> ~/myexpos/spl/spl_progs/sample_print20.xsm
+	*	1769158924	0
+	"	10	9
+	^	10	10
+	.	10	9
+	+	36	5
+	+	9	8
+	+	10	9
+	+	14	8
+	+	9	8
+	+	10	9
 
 > ~/myexpos/spl/kernel/os_startup.spl
 	*	1769057699	0
