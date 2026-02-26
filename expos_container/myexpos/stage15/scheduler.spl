@@ -1,0 +1,51 @@
+//get current PID
+alias currentPID R0;
+currentPID = [SYSTEM_STATUS_TABLE + 1];
+
+//current process for kernel stack
+alias current_process_entry R1;
+current_process_entry = PROCESS_TABLE + (currentPID*16);
+
+//save BP to top of kernel stack of current process, just increment SP and then save it
+SP = SP+1;
+[SP] = BP;
+
+//save kptr, ptbr, ptlr 
+[current_process_entry + 12] = SP % 512;
+[current_process_entry + 14] = PTBR;
+[current_process_entry + 15] = PTLR;
+
+//checking for ready or crreated process
+alias nextPID  R4;
+nextPID = (currentPID + 1) % 16;
+while (nextPID != currentPID) do
+	if([PROCESS_TABLE + nextPID * 16 + 4] == READY || [PROCESS_TABLE + nextPID*16 + 4] == CREATED) then
+		break;
+	endif;
+	nextPID = (nextPID + 1) % 16;
+endwhile;
+
+alias new_process_entry R5;
+new_process_entry = PROCESS_TABLE + nextPID * 16;
+
+//get sp ptbr ptlr
+SP = [new_process_entry + 11] * 512 + [new_process_entry + 12];
+PTBR = [new_process_entry + 14];
+PTLR = [new_process_entry + 15];
+
+//set new PID"
+[SYSTEM_STATUS_TABLE + 1] = nextPID;
+
+//if createdprocess
+if ([new_process_entry + 4] == CREATED) then
+	SP = [new_process_entry + 13];
+	[new_process_entry + 4] = RUNNING;
+	[new_process_entry + 9] = 0;
+	ireturn;
+endif;
+
+[new_process_entry + 4] = RUNNING;
+BP =[SP];
+SP = SP-1;
+//print "s";
+return;

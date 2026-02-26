@@ -1,0 +1,13 @@
+//change state to terminated
+[PROCESS_TABLE + [SYSTEM_STATUS_TABLE + 1]*16 + 4] = TERMINATED;
+
+alias counter R2;
+counter = 1;
+while (counter < 16) do
+	if ([PROCESS_TABLE + counter*16 + 4] != TERMINATED) then
+ 		call SCHEDULER;
+		//print "int10";
+ 	endif;
+ 	counter = counter + 1;
+endwhile;
+halt;

@@ -4,11 +4,12 @@ int main()
 		int a, temp, b;
 	enddecl
 	begin
-		a=101;
-		while(a<=200) do
-			temp = exposcall("Write", -2, a);
-			a=a+1;
-		endwhile;
+		//a=100;
+		//while(a<=200) do
+		//	temp = exposcall("Write", -2, a);
+
+		//	a=a+1;
+		//endwhile;
 
 		while(1 == 1) do
 			b=1;

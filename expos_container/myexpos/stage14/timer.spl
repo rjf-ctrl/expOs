@@ -1,0 +1,43 @@
+//save UPTR
+[PROCESS_TABLE +([SYSTEM_STATUS_TABLE+1]*16)+13] = SP;
+
+//Switch to Kernel Stack
+SP = [PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 11]*512 -1;
+
+//save register context of user process
+//breakpoint;
+backup;
+
+//identify currently running process
+alias currentPID R0;
+currentPID = [SYSTEM_STATUS_TABLE + 1];
+
+//locate process_table base address
+alias process_table_entry R1;
+process_table_entry = PROCESS_TABLE + currentPID * 16;
+
+//running ---> ready
+[process_table_entry + 4] = READY; 
+
+//------------------------------------------------------------------------------------------------------
+
+alias i R4;
+i=0;
+while(i<16) do
+    //if([PROCESS_TABLE + i*16 + 4]!= TERMINATED) then
+    [PROCESS_TABLE + i*16 + 0]=[PROCESS_TABLE + i*16 + 0] + 1;
+    //endif;
+    i = i + 1;
+endwhile;
+
+//---------------------------------------------------------------------------------------------------------
+
+call MOD_5;
+
+restore;
+
+SP = [PROCESS_TABLE + ([SYSTEM_STATUS_TABLE + 1] * 16) + 13];
+[PROCESS_TABLE + ([SYSTEM_STATUS_TABLE + 1] * 16) + 9] = 0;
+//breakpoint;
+
+ireturn;
