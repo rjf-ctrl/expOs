@@ -1,20 +1,21 @@
+//mode flag of caller = system call
 [PROCESS_TABLE + [SYSTEM_STATUS_TABLE + 1] * 16 + 9] = 5;
 
+//user stack to kernel stack
 alias userSP R0;
 userSP = SP;
-
-[PROCESS_TABLE + [SYSTEM_STATUS_TABLE + 1] * 16 + 13] = SP;
+[PROCESS_TABLE + ( [SYSTEM_STATUS_TABLE + 1] * 16 ) + 13] = userSP;
 SP = [PROCESS_TABLE + [SYSTEM_STATUS_TABLE + 1] * 16 + 11] * 512 - 1;
+
 
 alias physicalPageNum R1;
 alias offset R2;
 alias fileDescPhysicalAddr R3;
+alias fileDescriptor R4;
 
 physicalPageNum = [PTBR + 2 * ((userSP - 4) / 512)];
 offset = (userSP - 4) % 512;
 fileDescPhysicalAddr = (physicalPageNum * 512) + offset;
-
-alias fileDescriptor R4;
 fileDescriptor = [fileDescPhysicalAddr];
 
 if (fileDescriptor != -2)

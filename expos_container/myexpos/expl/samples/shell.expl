@@ -1,0 +1,19 @@
+decl
+    str fileName;
+    int ret;
+enddecl
+
+int main()
+{
+    begin
+        while(1 == 1) do
+            ret = exposcall("Write", -2, "shell_command:");
+            ret = exposcall("Read", -1, fileName);
+            ret = exposcall("Exec", fileName);
+            if(ret == -1) then
+                ret = exposcall("Write", -2, "No Such File");
+            endif;
+        endwhile;
+        return 0;
+    end
+}
