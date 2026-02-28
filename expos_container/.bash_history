@@ -1,30 +1,3 @@
-pwd
-ls
-touvh test
-touch test
-ls
-mkdir testdir
-ls
-curl -sSf https://raw.githubusercontent.com/eXpOSNitc/expos-bootstrap/main/download.sh | sh
-ls
-cd myexpos
-cd myexpos
-ls
-make
-ls
-ls xfs-interface
-exit
-whoami
-pwd
-rm -f $HOME/myexpos/sample.dat
-rm -f $HOME/myexpos/xfs-interface/disk.xfs
-rm -f $HOME/myexpos/inode_table.txt
-rm -f $HOME/myexpos/data.txt
-rm -f $HOME/myexpos/xfs-interface/inodeusertable.txt
-cd $HOME/myexpos/xfs-interface
-./xfs-interface
-ls
-./xfs-interface
 cd $HOME/myexpos
 nano sample.dat
 clear
@@ -469,4 +442,59 @@ clear
 ./xfs-interface 
 cat check.txt
 run xfs_16.txt
+exit
+clear
+cd myexpos/xfs-interface/
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+./xfs-interface 
+clear
+./xfs-interface 
+exit
+cd myexpos/xfs-interface/
+./xfs-interface 
+clear
+./xfs-interface 
+./xfs-interface 
+clear
+./xfs-interface 
+fdisk
+load --exhandler $HOME/myexpos/stage14/int10.xsm
+load --library $HOME/myexpos/expl/library.lib
+load --int=6 $HOME/myexpos/stage16/int6.xsm
+load --int=7 $HOME/myexpos/stage15/int7.xsm
+load --int=9 $HOME/myexpos/stage18/int9.xsm
+load --int=10 $HOME/myexpos/stage14/int10.xsm
+load --int=timer $HOME/myexpos/stage14/timer.xsm
+load --int=disk $HOME/myexpos/stage18/disk_int.xsm
+load --int=console $HOME/myexpos/stage16/console_int.xsm
+load --os $HOME/myexpos/stage14/os_start_14.xsm
+load --init $HOME/myexpos/expl/samples/shell.xsm
+load --idle $HOME/myexpos/spl/kernel/idle.xsm
+load --module 0 $HOME/myexpos/stage18/resource_manager.xsm
+load --module 1 $HOME/myexpos/stage17/process_manager.xsm
+load --module 2 $HOME/myexpos/stage17/memory_manager.xsm
+load --module 4 $HOME/myexpos/stage18/device_manager.xsm
+load --module 5 $HOME/myexpos/stage15/scheduler.xsm
+load --module 7 $HOME/myexpos/stage18/boot.xsmclear
+exit
+clear
+docker start expos
+cd expOS
+exit
+clear
+cd myexpos/xfs-interface/
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+dos2unix xfs_18.txt
 exit

@@ -1,0 +1,94 @@
+alias CurProcess R0;
+CurProcess=PROCESS_TABLE+16*[SYSTEM_STATUS_TABLE+1]; //saving user stack value
+[CurProcess+13]=SP;
+alias userSP R2;
+userSP=SP;
+SP=[CurProcess+11]*512-1; //initiating kernel stack
+[CurProcess+9]=9; //mode flag
+alias fname R1; //getting arguments
+R1=[[PTBR+2*((userSP-4)/512)]*512+((userSP-4)%512)];
+R4=0;
+while(R4<MAX_FILE_NUM) do //searching inode memory for file
+if([INODE_TABLE+R4*16+1]==fname && [INODE_TABLE+R4*16]==3) then
+break;
+endif;
+R4=R4+1;
+endwhile;
+if(R4<MAX_FILE_NUM) then //if its actual file mumbner and index stored in R1, calling exit process
+multipush(R0,R1,R2,R3,R4);
+R1=3;
+R2=[SYSTEM_STATUS_TABLE+1];
+call MOD_1;
+multipop(R0,R1,R2,R3,R4);
+[MEMORY_FREE_LIST+[CurProcess+11]]=1; //getting user page //initializing per process rn
+[SYSTEM_STATUS_TABLE+2]=[SYSTEM_STATUS_TABLE+2]+1;
+SP=[CurProcess+11]*512-1; //initializing the SP now
+[CurProcess+4]=RUNNING;
+[CurProcess+7]=R4;
+[PTBR]=63; //allocating new page
+[PTBR+1]="0100";
+[PTBR+2]=64;
+[PTBR+3]="0100";
+multipush(R1,R2,R3,R4); //heap
+R1=1;
+call MOD_2;
+multipop(R1,R2,R3,R4);
+[PTBR+4]=R0;
+[PTBR+5]="0110";
+multipush(R1,R2,R3,R4); //heap
+R1=1;
+call MOD_2;
+multipop(R1,R2,R3,R4);
+[PTBR+6]=R0;
+[PTBR+7]="0110";
+multipush(R1,R2,R3,R4); //stack
+R1=1;
+call MOD_2;
+multipop(R1,R2,R3,R4);
+[PTBR+16]=R0;
+[PTBR+17]="0110";
+multipush(R1,R2,R3,R4); //stack
+R1=1;
+call MOD_2;
+multipop(R1,R2,R3,R4);
+[PTBR+18]=R0;
+[PTBR+19]="0110";
+R2=([INODE_TABLE+R4*16+2]+511)/512; //file size / 512 to get page numbers
+R3=0; //getting the inode table entry and assiging page for code
+while(R2>R3) do
+R1=1;
+multipush(R1,R2,R3,R4);
+call MOD_2;
+multipop(R1,R2,R3,R4);
+[PTBR+2*R3+8]=R0;
+[PTBR+2*R3+9]="0100";
+R1=[INODE_TABLE+R4*16+8+R3];
+multipush(R1,R2,R3,R4);	//invoking disk load instead of loadi
+R4 = R1;
+R1 =2;
+R2 = [SYSTEM_STATUS_TABLE+1];
+R3 = R0;
+call MOD_4;
+multipop(R1,R2,R3,R4);
+R3=R3+1;
+endwhile;
+
+while (4 > R3) do //disallowing the ununsed pages
+[PTBR+2*R3+8]=-1;
+[PTBR+2*R3+9]="0000";
+R3=R3+1;
+endwhile;
+
+alias index R1;
+index = 0;
+while(index < 16) do 
+	[[PROCESS_TABLE + [SYSTEM_STATUS_TABLE + 1] * 16 + 11] * 512 + RESOURCE_TABLE_OFFSET + index] = -1;
+	index = index + 2;
+endwhile;
+[[PTBR+16]*512]=[[PTBR+8]*512+1]; //storing ip
+else
+[[PTBR+2*((userSP-1)/512)]*512+((userSP-1)%512)]=-1; //if not valid page number
+endif;
+[CurProcess+9]=0;
+SP=8*512;
+ireturn;
