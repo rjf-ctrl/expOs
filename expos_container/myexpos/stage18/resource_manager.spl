@@ -32,7 +32,7 @@ if(functionNum == 8) then
     endwhile;
     [TERMINAL_STATUS_TABLE] = 1;
 	[TERMINAL_STATUS_TABLE + 1] = currentPID;
-    breakpoint;
+    
 
 endif;
 

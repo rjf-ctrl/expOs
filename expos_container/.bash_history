@@ -1,39 +1,3 @@
-cd $HOME/myexpos
-nano sample.dat
-clear
-touch sample.dat
-nano sample.dat
-vim sample.dat
-cd $HOME/myexpos
-ls
-cd xfs-interface
-ls
-cd $HOME/myexpos/xfs-interface
-./xfs-interface
-./xfs-interface
-copy 3 4 $HOME/myexpos/inode_table.txt
-./xfs-interface
-cd $HOME/myexpos
-less inode_table.txt
-cd $HOME/myexpos/xfs-interface
-./xfs-interface
-cd ..
-less data.txt
-cd $HOME/myexpos/xfs-interface
-./xfs-interface
-cd $HOME/myexpos
-diff sample.dat exported.txt
-clear
-cd xfs-interface
-./xfs-interface
-cd ..
-ls
-cd xfs-interface
-ls
-cat rootfile.txt
-./xfs-interface
-ls
-cat inodeusertable.txt
 clear
 exit
 exit
@@ -497,4 +461,40 @@ clear
 clear
 ./xfs-interface 
 dos2unix xfs_18.txt
+exit
+clear
+cd myexpos/xfs-interface/
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+run xfs_19.txt
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+cat inodeuserable.txt
+ls
+cat inodeusertable.txt
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
+./xfs-interface 
+clear
+./xfs-interface 
+clear
+./xfs-interface 
 exit

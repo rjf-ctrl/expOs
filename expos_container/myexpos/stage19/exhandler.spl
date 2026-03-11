@@ -1,0 +1,83 @@
+breakpoint;
+[PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 9] = -1; //setting mode flag to -1
+
+// switching to kernel stack
+alias userSP R5;
+[PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 13] = SP;
+userSP = SP;
+// set SP to user area page start
+SP = [PROCESS_TABLE + [SYSTEM_STATUS_TABLE+1]*16 + 11]*512 - 1;
+
+backup;
+multipush(EIP); //push EIP onto stack
+
+
+// EC != 0 means real exception, userSP == PTLR*512-1 means stack overflow
+if(EC != 0 || userSP == PTLR*512 - 1) then
+
+    // print error message
+    if (userSP == PTLR*512 - 1) then
+        print "Stack Overflow";
+    else
+        if(EC == 1) then
+            print "INSTR_ERR";
+        endif;
+        if(EC == 2) then
+            print "MEM_ERR";
+        endif;
+        if(EC == 3) then
+            print "ARITH_ERR";
+        endif;
+    endif;
+
+    // exit the process and invoke the scheduler
+    R1 = 3;
+    R2 = [SYSTEM_STATUS_TABLE + 1];
+    call MOD_1;
+    call MOD_5;
+
+else
+    // EC == 0: page fault
+
+    //page fault caused by code page (logical pages 4-7)
+    if(EPN >= 4 && EPN < 8) then
+        //Get Code Page (Module 2 - memory manager, Function 5)
+        multipush(EPN);
+        R1 = 5;
+        R2 = [DISK_MAP_TABLE + ([SYSTEM_STATUS_TABLE+1]*10) + EPN];
+        R3 = [SYSTEM_STATUS_TABLE+1];
+        call MOD_2;
+        multipop(EPN);
+
+        // update page table entry
+        [PAGE_TABLE_BASE + [SYSTEM_STATUS_TABLE+1] * 20 + 2 * EPN] = R0;
+        [PAGE_TABLE_BASE + [SYSTEM_STATUS_TABLE+1] * 20 + 2 * EPN + 1] = "1100";
+
+    //page fault caused by heap page
+    else
+        // Get Free Page twice for 2 heap pages (Module 2 - memory manager, Function 1)
+        multipush(R0, R1, R2, R3, R4, R5);
+        R1 = 1;
+        call MOD_2;
+        [PTBR + 4] = R0; // set to return value
+        [PTBR + 5] = "1110"; // set aux info
+        R1 = 1;
+        call MOD_2;
+        [PTBR + 6] = R0;
+        [PTBR + 7] = "1110";
+        multipop(R0, R1, R2, R3, R4, R5);
+
+    endif;
+
+endif;
+
+multipop(EIP);
+restore; // restore registers from kernel stack
+
+// restore user SP and push EIP onto user stack
+SP = [PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 13];
+SP = SP + 1;
+[[PTBR + 2*(SP/512)]*512 + SP%512] = EIP;
+
+[PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 9] = 0; //setting mode flag to 0
+ireturn;

@@ -1,0 +1,149 @@
+// Module 2 - Memory Manager
+
+alias functionNumber R1;
+
+// 1 = Get Free Page
+// 2 = Release Memory Page
+// 4 = Release Disk Block
+// 5 = Get Code Page
+
+//---------------------------------------------------------------------------------------------------------------------------------
+
+if(functionNumber == 1) then
+    //Get Free Page
+    //increment WAIT_MEM_COUNT
+    [SYSTEM_STATUS_TABLE + 3] = [SYSTEM_STATUS_TABLE + 3] + 1;
+
+    //while memory is full (MEM_FREE_COUNT == 0)
+    while([SYSTEM_STATUS_TABLE + 2] == 0) do
+        //set state to WAIT_MEM of current process
+        [PROCESS_TABLE + ([SYSTEM_STATUS_TABLE+1]*16) + 4] = WAIT_MEM;
+
+        //context switch
+        call MOD_5;
+    endwhile;
+
+    //decrement WAIT_MEM_COUNT and MEM_FREE_COUNT
+    [SYSTEM_STATUS_TABLE + 3] = [SYSTEM_STATUS_TABLE + 3] - 1;
+    [SYSTEM_STATUS_TABLE + 2] = [SYSTEM_STATUS_TABLE + 2] - 1;
+
+    //find free page in memfreelist starting from page 80
+    alias counter R2;
+    counter = 80;
+    while(counter < NUM_MEM_PAGES && [MEMORY_FREE_LIST + counter] != 0) do
+        counter = counter + 1;
+    endwhile;
+
+    [MEMORY_FREE_LIST + counter] = 1;
+    R0 = counter;     // return free page number in R0
+
+    return;
+endif;
+
+//---------------------------------------------------------------------------------------------------------------------------------
+
+if(functionNumber == 2) then
+    //Release Page
+    //page number to release is in R2
+    alias pageNum R2;
+
+    //decrement memfreelist
+    [MEMORY_FREE_LIST + pageNum] = [MEMORY_FREE_LIST + pageNum] - 1;
+
+    // if entry == 0, page is free - increment MEM_FREE_COUNT
+    if([MEMORY_FREE_LIST + pageNum] == 0) then
+        [SYSTEM_STATUS_TABLE + 2] = [SYSTEM_STATUS_TABLE + 2] + 1;
+    endif;
+
+    //all processes waiting for memory (WAIT_MEM -> READY)
+    alias counter R3;
+    counter = 1;
+    while(counter < MAX_PROC_NUM) do
+        if([PROCESS_TABLE + (counter*16) + 4] == WAIT_MEM) then
+            [PROCESS_TABLE + (counter*16) + 4] = READY;
+        endif;
+        counter = counter + 1;
+    endwhile;
+
+    return;
+endif;
+
+//---------------------------------------------------------------------------------------------------------------------------------
+
+if(functionNumber == 4) then
+    //Release Disk Block
+    //decrements the entry corresponding to the disk block in the disk free list
+    alias blockNumber R2;
+    [DISK_FREE_LIST + blockNumber] = [DISK_FREE_LIST + blockNumber] - 1;
+
+    return;
+endif;
+
+//---------------------------------------------------------------------------------------------------------------------------------
+
+if(functionNumber == 5) then
+    //Get Code Page
+    breakpoint;
+    alias blockNumber R2;
+    alias currentPID R3;
+    alias counter R4;
+    alias process R5;
+    alias flag R6;
+    alias targetPage R7;
+
+    flag = 0;
+    process = 1;
+
+    //check all disk map table entries
+    //is block in the table? if so, is it loaded already?
+    while(process < MAX_PROC_NUM) do
+        counter = 4;
+        while(counter < 8) do
+            if([DISK_MAP_TABLE + process*10 + counter] == blockNumber && [[PROCESS_TABLE + process*16 + 14] + 8 + (counter-4)*2] != -1) then
+                flag = 1;
+                break;
+            endif;
+            counter = counter + 1;
+        endwhile;
+        if(flag == 1) then
+            break;
+        endif;
+        process = process + 1;
+    endwhile;
+
+    targetPage = [PROCESS_TABLE + process*16 + 14] + 8 + (counter-4)*2;
+
+    //if valid entry found - page is already in memory (shared)
+    if(flag == 1 && ([targetPage + 1] == "0100" || [targetPage + 1] == "0110" || [targetPage + 1] == "1110")) then
+        alias memoryPage R6;
+        memoryPage = [targetPage];  //get the existing memory page
+
+        //increment mem-free-list to indicate shared page
+        [MEMORY_FREE_LIST + memoryPage] = [MEMORY_FREE_LIST + memoryPage] + 1;
+
+        R0 = memoryPage;   //return the page number found
+
+    else
+        alias memoryPage R6;
+        //get new free page (Module 2 - memory manager, Function 1)
+        multipush(R0, R1, R2, R3, R4, R5);
+        functionNumber = 1;
+        call MOD_2;
+        memoryPage = R0;
+        multipop(R0, R1, R2, R3, R4, R5);
+
+        //load disk block to memory page (Module 4 - device manager, Function 2)
+        multipush(R0, R1, R2, R3, R4, R5, R6);
+        functionNumber = 2;
+        R4 = blockNumber;
+        R2 = currentPID;
+        R3 = memoryPage;
+        call MOD_4;
+        multipop(R0, R1, R2, R3, R4, R5, R6);
+
+        R0 = memoryPage;    //return the new allocated page number
+
+    endif;
+
+    return;
+endif;

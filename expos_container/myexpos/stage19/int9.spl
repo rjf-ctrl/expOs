@@ -37,7 +37,7 @@ while(i < MAX_FILE_NUM) do
     i = i + 1;
 endwhile;
 
-//If file not found or not XEXE type, return -1
+//if file not found or not XEXE type, return -1
 if(flag == 0) then
     [[PTBR + 2 * ((userSP - 1) / 512)] * 512 + ((userSP - 1) % 512)] = -1;
     SP = [PROCESS_TABLE + (currentPID * 16) + 13];
@@ -45,14 +45,14 @@ if(flag == 0) then
     ireturn; //return to usermode
 endif;
 
-//File found and is XEXE - inodeI holds the inode index
+//file found and is XEXE - inodeI holds the inode index
 
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 //Call Exit Process (Module 1 - process manager, Function 3)
-//free resources
+//free resources of current process
 multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9);
 R1 = 3;                 //EXIT_PROCESS function number
 R2 = currentPID;
@@ -85,31 +85,42 @@ SP = userAreaPage * 512 - 1;
 [PROCESS_TABLE + (currentPID * 16) + 4] = RUNNING;    //STATE
 [PROCESS_TABLE + (currentPID * 16) + 7] = inodeI;     //INODE INDEX
 
-//set up page table entries for new process
+//set up page table for new process
+PTBR = PAGE_TABLE_BASE + currentPID * 20;
+
 //(i) library pages
 [PTBR + 0] = 63;
 [PTBR + 1] = "0100";
 [PTBR + 2] = 64;
 [PTBR + 3] = "0100";
 
-//(ii) heap pages - logical pages 2 & 3
+//(ii) heap pages - invalidate (demand paging)
+[PTBR + 4] = -1;
+[PTBR + 5] = "0000";
+[PTBR + 6] = -1;
+[PTBR + 7] = "0000";
+
+//(iii) code page 0 - load first block (Module 2 - memory manager, Function 5)
+multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
+R1 = 5;                                         //GET_CODE_PAGE function number
+R2 = [INODE_TABLE + inodeI * 16 + 8];           //first code block number
+R3 = currentPID;
+call MOD_2;
+[PTBR + 8] = R0;
+[PTBR + 9] = "0100";
+multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
+
+//invalidate remaining code pages 1, 2, 3
+i = 1;
+while(i < 4) do
+    [PTBR + 8 + 2 * i] = -1;
+    [PTBR + 9 + 2 * i] = "0000";
+    i = i + 1;
+endwhile;
+
+//(iv) stack pages - logical pages 8 & 9
 multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
 R1 = 1;      //GET_FREE_PAGE function number
-call MOD_2;  //Memory Manager
-[PTBR + 4] = R0;
-[PTBR + 5] = "0110";
-multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
-
-multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
-R1 = 1;
-call MOD_2;
-[PTBR + 6] = R0;
-[PTBR + 7] = "0110";
-multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
-
-//(iii) stack pages - logical pages 8 & 9
-multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
-R1 = 1;
 call MOD_2;
 [PTBR + 16] = R0;
 [PTBR + 17] = "0110";
@@ -121,37 +132,6 @@ call MOD_2;
 [PTBR + 18] = R0;
 [PTBR + 19] = "0110";
 multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10);
-
-//(iv) code pages - allocate only for blocks that exist in inode table
-alias blk_cnt R11;
-blk_cnt = 0;
-i = 0;
-while(i < 4) do
-    if([INODE_TABLE + (inodeI * 16) + 8 + i] != -1) then
-        //block exists - allocate a free page
-        blk_cnt = blk_cnt + 1;
-        multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11);
-        R1 = 1;         //GET_FREE_PAGE function number
-        call MOD_2;
-        [PTBR + 8 + 2 * i] = R0;
-        [PTBR + 9 + 2 * i] = "0100";
-        multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11);
-
-        //invoke disk load (Module 4 - Device Manager) to load block into allocated page
-        multipush(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11);
-        R1 = 2;                                         //DISK_LOAD function number
-        R2 = currentPID;                                //PID
-        R3 = [PTBR + 8 + 2 * i];                       //page to load into
-        R4 = [INODE_TABLE + (inodeI * 16) + 8 + i];    //disk block number
-        call MOD_4;
-        multipop(R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11);
-    else
-        //no block - mark page table entry invalid
-        [PTBR + 8 + 2 * i] = -1;
-        [PTBR + 9 + 2 * i] = "0000";
-    endif;
-    i = i + 1;
-endwhile;
 
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -169,10 +149,29 @@ endwhile;
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+//initialise Disk Map Table - all entries to -1
+i = 0;
+while(i < 10) do
+    [DISK_MAP_TABLE + currentPID * 10 + i] = -1;
+    i = i + 1;
+endwhile;
+
+//map code blocks from inode table into disk map table (entries 4 onwards)
+alias codeBlock R11;
+i = 4;
+codeBlock = 0;
+while([INODE_TABLE + inodeI * 16 + 8 + codeBlock] != -1) do
+    [DISK_MAP_TABLE + currentPID * 10 + i] = [INODE_TABLE + inodeI * 16 + 8 + codeBlock];
+    i = i + 1;
+    codeBlock = codeBlock + 1;
+endwhile;
+
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 //entry point IP - stored at word 1 of first code page
-alias stackTop R12;
-stackTop = [PTBR + 16];
-[stackTop * 512] = [[PTBR + 8] * 512 + 1];
+[[PTBR + 16] * 512] = [[PTBR + 8] * 512 + 1];
 
 //user stack pointer
 SP = 8 * 512;
